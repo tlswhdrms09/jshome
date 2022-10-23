@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>점수</h1>
+  <script>
+  var n = window.prompt('점수를 입력하세요');
+  document.write('입력점수'+ n +'점');
+  document.write('<br>');
+  document.write('학점:');
+  if (n>=90){
+    document.write('A');
+  }else if(n>=80){
+    document.write('B');
+  }else if(n>=70){
+    document.write('c');
+  }else if(n>=60){
+    document.write('D');
+  }else{
+    document.write('F');
+  }
+  </script>
+</body>
+</html>
