@@ -1,0 +1,23 @@
+h1{
+  background-color: blue;
+  color:yellow;
+  font-size:100px;
+}
+
+h2{
+  color:darkblue;
+  font-size:30px;
+}
+
+li{
+  color:#d9c409;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
+p{
+  color:gold;
+  font-size:20px ;
+  font-weight:bolder;
+  background-color:black;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>주문내역</title>
+    <style>
+      table,th,td {
+        border: 3px solid rgb(206, 208, 238);
+        border-collapse: collapse ;
+        padding:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>주문내역</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>상호</th>
+          <th>수량</th>
+          <th>주문</th>
+          <th rowspan="2">사진</th>
+        </tr>
+        <tr>
+          <th>주문처</th>
+          <th colspan="2">주문내역</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td rowspan = "2">안녕버거</td>
+            <td>14</td>
+            <td>포장</td>
+            <td rowspan="2"><img src = "hello buger.jpg" width ="350px" height = "350px" ></td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>배달</td>
+          </tr>
+          <tr>
+            <td>버거버거</td>
+            <td>34</td>
+            <td>배달</td>
+            <td><img src = "bugger+bugger.jpg"></td>
+          </tr>
+          <tr>
+            <td rowspan="2">컴퓨터초밥</td>
+            <td>25</td>
+            <td>포장</td>
+            <td rowspan="2"><img src = "computer.chbub.jpg"></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>배달</td>
+          </tr>
+        </tbody>
+      </thead>
+    </table>
+  </body>
+</html>

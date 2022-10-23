@@ -1,0 +1,36 @@
+body{
+  background-color: aquamarine;
+}
+
+h1{
+  color:cornflowerblue;
+}
+
+
+
+
+.btn{
+  width:200px;
+  height:70px;
+  margin: 10px;
+  text-align:center;
+  line-height:70px;
+  border-radius:10px;
+  border:1px solid black;
+  background-color: greenyellow;
+  font-size:30px;
+
+}
+a{
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color:aliceblue;
+  color:black;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+
+
