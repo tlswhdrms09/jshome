@@ -1,0 +1,42 @@
+h1{
+  color:rgb(3, 87, 143);
+} 
+
+body{
+  text-align:center;
+  background-color:black;
+}
+
+#btn{
+  width:100px;
+  height:40px;
+  font-size: 20px;
+  border:1px;
+  background-color: goldenrod;
+  color:beige;
+}
+
+#result{
+  background-color:cadetblue;
+  margin:20px;
+  padding:20px;
+  border-radius:20px;
+}
+
+#frame{
+  background-color:bisque;
+  width:450px;
+  margin:auto;
+  margin-top:30px;
+  padding:30px;
+  border-radius:20px;
+}
+
+#num{
+  background-color: #e2e2e2;
+  width:100px;
+  height:30px;
+  font-size: 15px;
+  border:1px solid rgb(82,82,82);
+  text-align: center;
+}
